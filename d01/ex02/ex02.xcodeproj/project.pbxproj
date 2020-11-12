@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F648B79255D743B00EA5F64 /* eValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F648B76255D743B00EA5F64 /* eValue.swift */; };
+		5F648B7A255D743B00EA5F64 /* eColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F648B77255D743B00EA5F64 /* eColor.swift */; };
+		5F648B7B255D743B00EA5F64 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F648B78255D743B00EA5F64 /* Card.swift */; };
+		5F648B7E255D745700EA5F64 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F648B7D255D745700EA5F64 /* Deck.swift */; };
 		5FF8A2D6255D4576002A2464 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF8A2D5255D4576002A2464 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5F648B76255D743B00EA5F64 /* eValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eValue.swift; sourceTree = "<group>"; };
+		5F648B77255D743B00EA5F64 /* eColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eColor.swift; sourceTree = "<group>"; };
+		5F648B78255D743B00EA5F64 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		5F648B7D255D745700EA5F64 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		5FF8A2D2255D4576002A2464 /* ex02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex02; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF8A2D5255D4576002A2464 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				5FF8A2D5255D4576002A2464 /* main.swift */,
+				5F648B78255D743B00EA5F64 /* Card.swift */,
+				5F648B7D255D745700EA5F64 /* Deck.swift */,
+				5F648B77255D743B00EA5F64 /* eColor.swift */,
+				5F648B76255D743B00EA5F64 /* eValue.swift */,
 			);
 			path = ex02;
 			sourceTree = "<group>";
@@ -119,7 +131,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F648B7A255D743B00EA5F64 /* eColor.swift in Sources */,
 				5FF8A2D6255D4576002A2464 /* main.swift in Sources */,
+				5F648B7E255D745700EA5F64 /* Deck.swift in Sources */,
+				5F648B79255D743B00EA5F64 /* eValue.swift in Sources */,
+				5F648B7B255D743B00EA5F64 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

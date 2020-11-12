@@ -18,6 +18,11 @@ if (card == card2){
 if (card2 == card3){
     print(card2.description + " equal " + card3.description)
 }
+print(Card(color:.heart, value:.two).description)
+print(Card(color:.club, value:.three).description)
+print(Card(color:.diamond, value:.As).description)
+print(Card(color:.spade, value:.Jack).description)
+print(Card(color:.spade, value:.ten).description)
 
 
 
