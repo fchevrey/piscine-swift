@@ -9,6 +9,9 @@ import Foundation
 
 print ("entire deck : ")
 var cards = Deck.allClubs
-print(Deck.allCards)
+
+print(cards)
+cards.Shuffle()
+print(cards)
 
 
