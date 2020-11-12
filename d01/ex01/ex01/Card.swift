@@ -12,7 +12,7 @@ class Card : NSObject
     var color:eColor
     override var description: String
     {
-        return String(value.rawValue) + " of " + color//String(describing:color.rawValue)
+        return String(value.rawValue) + " of " + color.rawValue//String(describing:color.rawValue)
     }
     
     init(color:eColor, value:eValue)
